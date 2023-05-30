@@ -1,0 +1,123 @@
+.navbar {
+    /* background-color: #a68e55; */
+    background-color: #101838;
+    /* height:10em; */
+}
+
+.footer {
+    background-color: #101838;
+}
+
+.footer-item p {
+    color: white;
+}
+
+/* .footer-items{
+    margin:1% 1%;
+} */
+.footer-icon1 {
+    height: 2em;
+    width: 2em;
+}
+
+.footer-icon2 {
+    height: 2em;
+    width: 4em;
+}
+
+.footer p {
+    /* text-align: center; */
+    color: white;
+}
+
+#footer-content {
+    text-align: center;
+}
+#footer-content a{
+    text-decoration: none;
+    color:white;
+}
+#para-section {
+    padding: 5% 10%;
+}
+
+#ebike {
+    padding: 10% 1%;
+}
+
+.card-item {
+    height: 20em;
+}
+
+#slideshow {
+    padding: 5% 5% 5% 5%;
+}
+
+#collapseing {
+    padding: 2% 4%;
+    background-color: #f6f7dd
+}
+
+.faq {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+}
+
+.faq_question {
+    text-decoration: none;
+    color: black;
+}
+
+.question {
+    margin-bottom: 2em;
+}
+
+.navbar-btn {
+    color: white;
+}
+
+.navbar-nav li a {
+    color: white;
+}
+
+.navbar-brand {
+    color: yellow;
+}
+
+#contact-form {
+    padding: 10% 5%;
+}
+
+.form-part {
+    /* background-color: beige; */
+    padding: 5% 5%;
+}
+
+.form-pic {
+    width: 100%;
+    height: 95%;
+}
+
+#aboutus-part{
+    margin:2em 2em;
+}
+/* .aboutus-content {
+    text-align: center;
+} */
+.aboutus-content span {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Merriweather', serif;
+    font-size: 4em;
+    /* text-align: center; */
+}
+#about-us-carosoul{
+    margin:2em 2em;
+}
+.aboutus-img{
+    height: 100%;
+    width:100%;
+}
+#contact-info{
+    margin:4em 4em;
+}

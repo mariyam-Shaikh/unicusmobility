@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5c297e04ad.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Merriweather&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Homepage</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/unicus-logo.jpg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+        </ul>
+        <div class="ms-auto">
+          <button type="button" class="navbar-btn btn btn-outline-light" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            Login/signup
+          </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form class="row g-3">
+                    <div class="col-md-12">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12 ms-auto">
+                      <a class="btn btn-secondary" href="index.html" role="button">Login</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="slideshow">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/pic5.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/pic4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/pic6.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/pic2.webp" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div id="para-section">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aliquam ipsum optio error modi, culpa
+      aspernatur unde eveniet necessitatibus. Maxime tenetur iure quo rem dignissimos corporis molestias delectus
+      modi culpa excepturi et atque deserunt aspernatur inventore autem, officia nisi rerum, porro molestiae quae
+      commodi voluptatum harum recusandae voluptas? Dicta, at? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      Illo eaque officiis corporis voluptatum, id eum harum, placeat repudiandae doloribus ullam, rem eligendi vitae
+      reprehenderit quidem consequatur ex? Aliquid eveniet iusto quidem ut, dolore nobis deserunt corporis tempore
+      suscipit eos tenetur?</p>
+  </div>
+
+  <div id="bike-album">
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class=" col-sm-6">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="images/pic1.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-sm-6">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="images/pic3.jpg" alt="">
+
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="images/pic8.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-sm-6">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="images/pic7.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="images/pic1.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="images/pic6.jpg" alt="">
+
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="images/pic2.webp" alt="">
+
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="images/pic5.jpg" alt="">
+
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col">
+            <div class="card shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="images/pic4.jpg" alt="">
+
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="collapseing">
+    <span class="faq">Frequently asked questions</span>
+    <br><br><br>
+    <div class="question ">
+      <a class="faq_question" data-bs-toggle="collapse" href="#collapseExample1" aria-expanded="false"
+        aria-controls="collapseExample1">
+        Q1- What is an electric cycle?
+        <i class="fa-solid fa-angle-down"></i>
+      </a>
+      <div class="collapse" id="collapseExample1">
+        <div class="card card-body">
+          A cycle with battery-powered assistance is known as an electric cycle. This makes pedaling very simple and
+          enables you to travel far distances without becoming overly exhausted. E-cycles or electric cycles are, in a
+          nutshell, a great compromise between cycles and conventional bikes. They are environmentally friendly and
+          offer a wealth of financial and health advantages.
+        </div>
+      </div>
+
+    </div>
+    <br>
+    <div class="question">
+      <a class="faq_question" data-bs-toggle="collapse" href="#collapseExample2" aria-expanded="false"
+        aria-controls="collapseExample2">
+        Q2- What are the perks of riding an electric cycle?
+        <i class="fa-solid fa-angle-down"></i>
+      </a>
+      <div class="collapse" id="collapseExample2">
+        <div class="card card-body">
+          Owning a charging bicycle in India has many advantages, including being economical and friendly to the
+          environment.
+
+          Low cost of maintenance.
+          Beneficial to the environment.
+          Regular use keeps you in shape.
+          Simple to use.
+          Hero Lectro’s portable battery design makes charging incredibly simple.
+          Some e-cycles also have warranties that ensure product quality.
+          There is no need for a license or registration.
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="question">
+      <a class="faq_question" data-bs-toggle="collapse" href="#collapseExample3" aria-expanded="false"
+        aria-controls="collapseExample3">
+        Q3- What are the various riding modes of an e-cycle?
+        <i class="fa-solid fa-angle-down"></i>
+      </a>
+      <div class="collapse" id="collapseExample3">
+        <div class="card card-body">
+          A Hero Lectro e-cycle has 4 riding modes:
+
+          Ride conventionally using only mechanical power : pedal
+          Get electric support while pedaling, a modern form of pedal assistance technology : Pedelec
+          Consistently move at a speed of 6 km/h : Cruise
+          There is no need to pedal, you can just switch to the twist and go mode : Throttle
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="question">
+      <a class="faq_question" data-bs-toggle="collapse" href="#collapseExample4" aria-expanded="false"
+        aria-controls="collapseExample4">
+        Q4- How does an e-cycle get charged?
+        <i class="fa-solid fa-angle-down"></i>
+      </a>
+      <div class="collapse" id="collapseExample4">
+        <div class="card card-body">
+          It is simple to charge electric cycles. Even the ones in your home or office will work—you simply need to plug
+          them into a socket. A detachable battery is another feature that some e-cycles, like our Hero Lectro C5x, Hero
+          Lectro C8x and Hero Lectro F3i, have, which makes charging them very simple.
+        </div>
+      </div>
+    </div>
+    <p>Still have question ? <a href="contactus.html"> Contact us</a></p>
+  </section>
+  <footer class="footer mt-auto py-3 d-flex justify-content-center">
+    <div id="footer-content">
+      <p><a href="contactus.html">Contact us</a> | <a href="#"> unicusmobility@gmail.com</a> | +011 463859376</p>
+      <div class="footer-items d-flex justify-content-center">
+        <a href="https://www.instagram.com/unicusmobility/"><img src="images/insta.png" alt="" class="footer-icon1"></a>
+        <a href="https://www.linkedin.com/company/unicusmobility/"><img src="images/linkedin.png" alt=""
+            class="footer-icon2"></a>
+        <a href="https://google.com"><img src="images/twitter.png" alt="" class="footer-icon2"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
